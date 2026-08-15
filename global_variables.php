@@ -50,5 +50,3 @@ echo "Log entries:\n";
 foreach ($globalLog as $entry) {
     echo $entry . "\n";
 }
-
-?>
