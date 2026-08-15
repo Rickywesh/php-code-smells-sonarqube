@@ -14,7 +14,6 @@ function partiallyUsedFunction($flag) {
     if ($flag) {
         echo "Flag is true.\n";
         return;
-        echo "This line is unreachable.\n"; // Unreachable statement
     } else {
         echo "Flag is false.\n";
     }
@@ -35,4 +34,4 @@ $unusedVariable = 12345;
 sayHello();
 partiallyUsedFunction(true);
 
-?>
+
