@@ -13,7 +13,6 @@ function unusedFunction() {
 function partiallyUsedFunction($flag) {
     if ($flag) {
         echo "Flag is true.\n";
-        return;
     } else {
         echo "Flag is false.\n";
     }
