@@ -38,5 +38,3 @@ if (isRetirementAge($age)) {
 } else {
     echo "Not yet at retirement age.\n";
 }
-
-?>
