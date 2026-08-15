@@ -38,5 +38,3 @@ function calculateCircleArea($radius) {
 calculateRectangleArea(10, 20);
 calculateTriangleArea(10, 15);
 calculateSquareArea(5);
-
-?>
